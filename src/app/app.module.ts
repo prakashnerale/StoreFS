@@ -19,13 +19,15 @@ import 'hammerjs';
 
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { HomeComponent } from './components/home/home.component';
+import { MyAccountComponent } from './components/my-account/my-account.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    HomeComponent
+    HomeComponent,
+    MyAccountComponent
     
   ],
   imports: [
