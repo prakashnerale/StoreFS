@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {NgbModule, NgbCarouselModule} from '@ng-bootstrap/ng-bootstrap';
@@ -14,12 +13,11 @@ import { ReactiveFormsModule } from '@angular/forms';
 import 'hammerjs';
 
 
-
-
-
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { HomeComponent } from './components/home/home.component';
 import { MyAccountComponent } from './components/my-account/my-account.component';
+
+
 
 
 @NgModule({
@@ -27,7 +25,8 @@ import { MyAccountComponent } from './components/my-account/my-account.component
     AppComponent,
     NavBarComponent,
     HomeComponent,
-    MyAccountComponent
+    MyAccountComponent,
+    
     
   ],
   imports: [
