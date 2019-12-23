@@ -13,9 +13,14 @@ import { ReactiveFormsModule } from '@angular/forms';
 import 'hammerjs';
 
 
+import { LoginService } from './Services/login.service';
+import { UserService } from './Services/user.service';
+
+
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { HomeComponent } from './components/home/home.component';
 import { MyAccountComponent } from './components/my-account/my-account.component';
+
 
 
 
@@ -42,7 +47,10 @@ import { MyAccountComponent } from './components/my-account/my-account.component
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    LoginService,
+    UserService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
