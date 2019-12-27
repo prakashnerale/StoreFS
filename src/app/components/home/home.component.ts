@@ -15,8 +15,8 @@ export class HomeComponent implements OnInit {
     config.wrap = true;
     config.keyboard = false;
     config.pauseOnHover = false;
+    config.showNavigationIndicators = true;
   }
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
 }
