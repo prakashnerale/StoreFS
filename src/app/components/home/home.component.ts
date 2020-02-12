@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgbSlideEventSource, NgbSlideEvent, NgbCarousel, NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -11,12 +12,15 @@ export class HomeComponent implements OnInit {
 
   constructor(config: NgbCarouselConfig) {
     // customize default values of carousels used by this component tree
-    config.interval = 1500;
+    config.interval = 2000;
     config.wrap = true;
     config.keyboard = false;
     config.pauseOnHover = false;
     config.showNavigationIndicators = true;
   }
-  ngOnInit() {}
 
+  
+  ngOnInit() {}
+  
 }
+
